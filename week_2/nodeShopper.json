@@ -1,0 +1,21 @@
+{
+	"customer": {
+		"id": 123456789,
+		"firstName": "Joe",
+		"lastName": "Smith",
+		"dateOfBirth": "08/12/90",
+		"username": "Mr_Snuggles",
+		"invoice": [{
+			"_id": 100001,
+			"createDate": "10/01/2022",
+			"shipDate": "10/11/2022",
+			"subTotal": 105.62,
+			"lineItem": [{
+				"_id": 1,
+				"productName": "Fishing Rod",
+				"price": 105.62,
+				"qty": 1
+			}]
+		}]
+	}
+}

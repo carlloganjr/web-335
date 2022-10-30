@@ -1,0 +1,20 @@
+{
+	"student": {
+		"studentId": 5721924,
+		"firstName": "Jay",
+		"lastName": "Jacobs",
+		"enrollment": [{
+			"term": "fall",
+			"gpa": 3.1,
+			"startDate": "09/01/2022",
+			"endDate": "12/20/2022",
+			"course": [{
+				"courseId": "PSYC-101",
+				"description": "Intro to Psychology",
+				"instructor": "Jim Jones",
+				"score": 88,
+				"letterGrade": "B+"
+			}]
+		}]
+	}
+}
