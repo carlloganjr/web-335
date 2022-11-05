@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>200</y>
+      <x>390</x>
+      <y>250</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -20,8 +20,8 @@ subtotal</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>200</y>
+      <x>30</x>
+      <y>250</y>
       <w>210</w>
       <h>110</h>
     </coordinates>
@@ -37,8 +37,8 @@ username</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>860</x>
-      <y>200</y>
+      <x>760</x>
+      <y>250</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -53,40 +53,127 @@ qty</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>240</y>
+      <x>230</x>
+      <y>290</y>
       <w>180</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=N
-can have many</panel_attributes>
+has</panel_attributes>
     <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
-      <y>240</y>
+      <x>590</x>
+      <y>290</y>
       <w>190</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=N
-can have many</panel_attributes>
+has</panel_attributes>
     <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>160</y>
+      <x>30</x>
+      <y>210</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>NodeShopper</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>490</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>STUDENT
+--
+studentId
+firstName
+lastName</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>480</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>ENROLLMENT
+--
+term
+gpa
+startDate
+endDate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>480</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>COURSE
+--
+courseId
+description
+instructor
+score
+letterGrade</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>520</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=N
+has</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>520</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=N
+has</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>440</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>NodeTech</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

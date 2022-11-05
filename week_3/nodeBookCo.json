@@ -1,0 +1,43 @@
+{
+  "publisher_code": 115789,
+  "publisher_name": "Intentional House",
+  "publisher_address": "507 Main Street",
+  "authors": [
+    {
+      "author_first_name ": "Jim",
+      "author_last_name": "Bob",
+      "author_phone": "17774448888",
+      "author_email": "jim@jimbob.com",
+      "books": [
+        {
+          "book_isbn": "9000011111222",
+          "book_name": "Jim's Life",
+          "book_price": 19.95
+        },
+        {
+          "book_isbn": "9111112225555",
+          "book_name": "Bob Did It, So Can You",
+          "book_price": 29.99
+        }
+      ]
+    },
+    {
+      "author_first_name ": "Shlo",
+      "author_last_name": "Moe",
+      "author_phone": "12223337777",
+      "author_email": "sm@someemail.com",
+      "books": [
+        {
+          "book_isbn": "9000022288888",
+          "book_name": "I'm Shlo Moe",
+          "book_price": 9.90
+        },
+        {
+          "book_isbn": "9111115555999",
+          "book_name": "Where's My Other Sandwich",
+          "book_price": 7.99
+        }
+      ]
+    }
+  ]
+}
